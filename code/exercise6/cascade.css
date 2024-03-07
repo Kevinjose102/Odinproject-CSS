@@ -1,0 +1,28 @@
+.extrabold
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.small
+{
+    font-size: 20px;
+}
+
+.confirm
+{   
+    height: 30px;
+    width: auto;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-color: black;
+}
+.cancel
+{
+    height: 30px;
+    width: auto;
+    background-color: white;
+    color: black;
+    border-color: black;
+}
