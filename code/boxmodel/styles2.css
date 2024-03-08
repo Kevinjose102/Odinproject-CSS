@@ -1,0 +1,59 @@
+body
+{
+    background-color: gray;
+}
+.container
+{   
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 500px;
+    height: 215px;
+    background-color: white;
+    padding: 10px;
+}
+
+.one, .two, .three
+{
+    background-color: rgba(161, 229, 229, 0.531);
+    margin: 10px;
+    padding-left: 8px;
+}
+.one
+{
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+}
+.two
+{   
+    height: 60px;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+.three
+{   
+    text-align: center;
+    height: 65px;
+    font-size: 20px;
+}
+.button
+{
+    display: block;
+    margin: auto;
+    height: 35px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+.button:hover
+{
+    background-color: rgba(214, 214, 214, 0.417);
+}
+.button:active
+{
+    background-color: black;
+    color: white;
+}
