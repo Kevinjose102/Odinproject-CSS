@@ -1,0 +1,97 @@
+body 
+{
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+}
+  
+.container
+{   
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+    margin: 0;
+    padding: 15px;
+}
+
+.left, .right
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+ul
+{   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.profile
+{   
+    height: 50px;
+    background-color: rebeccapurple;
+    border-radius: 50px;
+    width: 50px;
+    margin: 5px;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+}
+
+p
+{   
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 8px 0 8px 0;
+    color: white;
+    font-size: 25px;
+}
+
+a
+{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.logo
+{
+    color: rebeccapurple;
+    font-weight: 1000;
+    font-size: 40px;
+    font-style: italic;
+}
+
+button
+{   
+    border: none;
+    border-radius: 8px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+}
+
+button:hover
+{
+    background-color: rgb(87, 43, 131);
+}
+button:active
+{
+    background-color: rgb(138, 102, 175);
+}
