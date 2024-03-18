@@ -1,0 +1,130 @@
+body
+{
+    background-color: gray;
+}
+.background
+{   
+    height: 900px;
+    width: 1830px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{   
+    background-color: white;
+    height: 300px;
+    width: 650px;
+    box-shadow: 2px 2px 10px rgb(94, 94, 94);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.middle-text
+{   
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    height: 230px;
+    width: 650px;
+
+}
+.warning-sign
+{   
+    margin: 10px;
+    margin-left: 20px;
+    background-color: rgba(125, 164, 231, 0.692);
+    height: 50px;
+    width: 65px;
+    border-radius: 30px;
+    margin-bottom: 213px;
+    color: blue;
+    font-size: 45px;
+    text-align: center;
+}
+
+.heading
+{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.content
+{   
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.close
+{
+    margin-right: 25px;
+    margin-left: 10px;
+    margin-bottom: 225px;
+    height: 35px;
+    width: 40px;
+    border-radius: 200px;
+    border: 1px solid rgb(104, 104, 104);
+    box-shadow: 1px 1px rgb(154, 154, 154);
+    font-size: 17px;
+    text-align: center;
+    font-weight: 999;
+    color: rgb(69, 69, 69);
+}
+.close:hover
+{
+    background-color: rgb(213, 213, 213);
+}
+.close:active
+{
+    background-color: white;
+}
+
+
+.continue
+{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(56, 120, 230);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+.continue:hover
+{
+    box-shadow: 1px 1px 4px rgb(89, 89, 89);
+}
+.continue:active
+{
+    height: 38px;
+    width: 118px;
+}
+
+.cancel
+{   
+    height: 40px;
+    width: 90px;
+    color: rgb(56, 120, 230);
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(191, 191, 191);
+    transition: box-shadow 0.15s;
+    font-size: 17px;
+
+}
+
+.cancel:hover
+{
+    box-shadow: 1px 1px 4px gray;
+}
+.cancel:active
+{
+    height: 38px;
+    width: 88px;
+}
