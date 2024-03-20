@@ -1,0 +1,145 @@
+body
+{   
+    margin: 0;
+    height: 966px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.top-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.bottom-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background-color: rgb(217, 217, 217);
+}
+
+.left, .right
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-icons
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+    flex-direction: column;
+
+}
+
+.image
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-cmds
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.middle
+{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.store button, .about button, 
+.profile button, .settings button,
+.ads button, .business button, 
+.private button, .terms button
+
+{   
+    border: none;
+    background-color: white;
+    height: 42px;
+    font-size: 24px;
+    color: rgb(55, 55, 55);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+.ads button, .business button, 
+.private button, .terms button
+{   
+    height: 60px;
+    margin: 0;;
+    color: rgb(70, 66, 66);
+    background-color: rgb(217, 217, 217);
+}
+.store button:hover, .about button:hover, 
+.profile button:hover, .settings button:hover
+{
+    cursor: pointer;
+    color: rgb(122, 122, 122);
+}
+
+.ads button:hover, .business button:hover, 
+.private button:hover, .terms button:hover
+{   
+    background-color: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.ads button:active, .business button:active, 
+.private button:active, .terms button:active
+{
+    background-color: rgba(171, 171, 171, 0.6);
+}
+.main-cmds button
+{
+    height: 42px;
+    width: auto;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+}
+
+.main-cmds button:hover
+{   
+    cursor: pointer;
+    background-color: rgba(180, 180, 180, 0.362);
+    box-shadow: 1px 1px 6px rgb(180, 180, 180);
+}
+
+.main-cmds button:active
+{
+    box-shadow: none;
+}
+
+.input
+{
+    border: 2px solid gainsboro;
+    height: 25px;
+    width: 780px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 22px;
+    color: rgb(65, 65, 65);
+    font-family: sans-serif;
+}
+
